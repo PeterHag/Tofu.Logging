@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
+    <Version>1.0.3.0</Version>
+    <Authors>Peter Hagenaers</Authors>
+    <Description>Tofu Logging is a .NET library that provides fast and lightweight stuctured logging. The rich API features 'Resource Logging' which is basically storing serialized  files of any type (text, xml, images, etc) together with log messages. This feature is designed to avoid bloating of log files with chunks of report and status texts. Resource logging will keep your log files lean and clean yet at the same time it provides an convenient way to store in-depth reports.</Description>
+    <Copyright>Copyright © 2018 - Peter Hagenaers</Copyright>
+    <PackageTags>tofu-logging logging log-library logging-library log structured-log structured-logging netstandard20 tofu</PackageTags>
+    <PackageReleaseNotes>Project is still in Alpha status.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Sources\CS\Tofu\Binary\</OutputPath>
+  </PropertyGroup>
+
+</Project>
