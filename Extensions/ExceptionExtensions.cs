@@ -134,7 +134,7 @@ namespace Tofu.Extensions
                     sbMsg.AppendFormat(
                         "({0} - {1})",
                         entry.Key,
-                        entry.Value != null ? entry.Value : "<null>");
+                        entry.Value ?? "<null>");
                     sbMsg.Append(Environment.NewLine);
                 }
                 sbMsg.Append(Environment.NewLine);
